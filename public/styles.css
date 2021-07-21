@@ -1,0 +1,36 @@
+.pinkFont {
+  color: #f25287 !important;
+}
+.pinkFont2 {
+  color: #f8a1d1 !important;
+}
+.shadow1 {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.font1 {
+  font-family: "Tourney", cursive;
+  font-size: 2rem;
+}
+.korean {
+  font-family: "Jua", sans-serif;
+}
+.topIcon {
+  font-size: 2rem;
+}
+.topContainer {
+  background-color: #dddddd;
+  width: 100vw;
+  margin: 0;
+}
+.topContainer2 {
+  background-color: seashell;
+}
+.verticalLine {
+  border-left: 6px solid white;
+  height: 500px;
+}
+.horizontalLine {
+    border-bottom: 6px solid white;
+    width: 500px;
+  }
