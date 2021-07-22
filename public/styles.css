@@ -1,9 +1,21 @@
 .pinkFont {
   color: #f25287 !important;
 }
+
+.pinkFont a:hover{
+  color: #be6182 !important;
+}
+
 .pinkFont2 {
   color: #f8a1d1 !important;
 }
+
+.nav-item a:hover{
+  color:#c07ca1!important;
+  font-size: 1.2rem;
+}
+
+
 .shadow1 {
   padding: 0 !important;
   margin: 0 !important;
@@ -15,22 +27,35 @@
 .korean {
   font-family: "Jua", sans-serif;
 }
+
+.title {
+  color: #CE97B0;
+}
+
+.onego {
+  color: #f25287;  
+}
+
 .topIcon {
   font-size: 2rem;
 }
 .topContainer {
-  background-color: #dddddd;
+  background-color: #ece3e3f3;
   width: 100vw;
   margin: 0;
 }
 .topContainer2 {
-  background-color: seashell;
+  background-color: white;
 }
 .verticalLine {
-  border-left: 6px solid white;
+  border-left: 6px solid rgb(244, 169, 168);
   height: 500px;
 }
 .horizontalLine {
-    border-bottom: 6px solid white;
+    border-bottom: 6px solid rgb(244, 169, 168);
     width: 500px;
-  }
+}
+
+textarea {height: 40vh!important; margin-top: 30px;}
+
+.submitButton {border-width: 3px; border-radius: 20px!important; width: 150px;}
