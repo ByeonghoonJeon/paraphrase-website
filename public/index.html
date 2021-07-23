@@ -22,61 +22,81 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light p-0 fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top p-0">
         <div class="container-fluid shadow-sm shadow1 bg-white">
-            <h1 class="pinkFont"><a class="navbar-brand font1 ml-5 pinkFont" href="#"><strong>Onego Monkey </strong></a></h1>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            <h1 class="pinkFont"><a class="navbar-brand font1 ml-5 pinkFont" href="#"><strong>Onego Monkey
+                    </strong></a>
+            </h1>
+            <button class="navbar-toggler mr-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active pinkFont2 korean ml-5" aria-current="page" href="#">홈</a>
+                        <a class="nav-link active pinkFont2 korean ml-sm-5 mr-5 mr-sm-0 text-right" aria-current="page"
+                            href="#">홈</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link pinkFont2 korean" href="#">기능</a>
+                        <a class="nav-link pinkFont2 korean text-right mr-5 mr-sm-0" href="#">기능</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link pinkFont2 korean" href="#">구독료</a>
+                        <a class="nav-link pinkFont2 korean text-right mr-5 mr-sm-0" href="#">구독료</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="topContainer d-flex flex-column p-3 text-center"><br>
-        <h3 class="korean title mt-5">히따를 위한 원고 작성 도우미, <span class="onego">원고숭이</span></h3>
 
+    <div class="topContainer text-center py-5"><br>
+        <h3 class="korean title mt-3 mx-0">히따를 위한 원고 작성 도우미,</h3>
+        <h3 class="korean title onego mb-3">원고숭이</h3>
 
-        <div class="container topContainer2 p-3 shadow mb-5">
+        <div class="container topContainer2 p-3 mb-5 shadow">
+
             <div class="row">
                 <div class="col text-center horizontalLine mx-3">
-                    <p class="korean" style="font-size: 1.4rem;">왼쪽 상자에 텍스트를 입력한 후 [변환] 버튼을 클릭한 후 기다리시면 오른쪽 박스에 변환된 텍스트가
+                    <p class="korean explain" style="font-size: 1.4rem;">왼쪽 상자에 텍스트를 입력한 후 [변환] 버튼을 클릭한 후 기다리시면 오른쪽
+                        박스에
+                        변환된
+                        텍스트가
                         보여집니다.</p>
                 </div>
             </div>
+
             <div class="row">
-                <div class="col text-center">
+                <div class="col-lg-6 text-center mt-2">
                     <form>
                         <textarea class="form-control textbox" name="typingField"
                             placeholder="오늘과 같이 흐린 날에는"></textarea>
                         <div class="row">
-                            <div class="col text-right">
-                                <button class="btn btn-lg btn-outline-danger mt-3 submitButton korean">변환</button>
+                            <div class="col text-right horizontalLine2 mx-3">
+                                <button
+                                    class="btn btn-lg btn-outline-danger mt-3 submitButton korean mb-md-2">변환</button>
                             </div>
                         </div>
                     </form>
                 </div>
-                <div class="col text-center verticalLine">
+
+                <div class="col-lg-6 text-center verticalLine  mt-2">
                     <textarea class="form-control textbox" name="resultField" placeholder="지금처럼 구름이 낀 하루는"></textarea>
+                    <div class="row">
+                        <div class="col text-right">
+                            <p class="korean mt-3 feedback">피드백 남기기</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+
         </div>
+    </div>
 
     </div>
-    <br><i class="fas fa-file-alt topIcon mx-3"></i> <i class="fas fa-sync-alt topIcon"></i> <i
-        class="far fa-file-alt topIcon mx-3"></i>
-    <div class="footer"><p>Copyright</p></div>
+    <!-- <br><i class="fas fa-file-alt topIcon mx-3"></i> <i class="fas fa-sync-alt topIcon"></i> <i
+        class="far fa-file-alt topIcon mx-3"></i> -->
+    <div class="footer text-center">
+        <p>Copyright Byeonghoon Jeon</p>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 

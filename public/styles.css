@@ -1,3 +1,5 @@
+html{width: 100%;}
+
 .pinkFont {
   color: #f25287 !important;
 }
@@ -28,6 +30,10 @@
   font-family: "Jua", sans-serif;
 }
 
+.explain {
+  color: rgb(112, 112, 112);
+}
+
 .title {
   color: #CE97B0;
 }
@@ -41,7 +47,7 @@
 }
 .topContainer {
   background-color: #ece3e3f3;
-  width: 100vw;
+  width: auto;
   margin: 0;
 }
 .topContainer2 {
@@ -49,13 +55,30 @@
 }
 .verticalLine {
   border-left: 6px solid rgb(244, 169, 168);
-  height: 500px;
+  height: max-content;
 }
+.verticalLine2 {
+  border-right: 6px solid rgb(244, 169, 168);
+  height: max-content;
+}
+
 .horizontalLine {
     border-bottom: 6px solid rgb(244, 169, 168);
-    width: 500px;
+    width: max-content;
 }
 
 textarea {height: 40vh!important; margin-top: 30px;}
 
 .submitButton {border-width: 3px; border-radius: 20px!important; width: 150px;}
+
+.feedback{color: rgb(175, 175, 175) ;}
+
+@media only screen and (max-width: 769px) {
+  .verticalLine {
+    border: none;
+  }
+  .horizontalLine2{
+    border-bottom: 6px solid rgb(244, 169, 168);
+    width: max-content;
+  }
+}
